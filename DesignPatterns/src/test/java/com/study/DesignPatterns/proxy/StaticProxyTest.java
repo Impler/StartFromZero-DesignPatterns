@@ -1,11 +1,12 @@
-package com.study.DesignPatterns.proxy.staticproxy;
+package com.study.DesignPatterns.proxy;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import com.study.DesignPatterns.proxy.Station;
+import com.study.DesignPatterns.proxy.staticproxy.StationProxy;
 
-public class StationProxyTest {
+public class StaticProxyTest {
 
 	private StationProxy station = null;
 	
