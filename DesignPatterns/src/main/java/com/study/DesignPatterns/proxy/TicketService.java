@@ -1,4 +1,4 @@
-package com.study.DesignPatterns.proxy.staticproxy;
+package com.study.DesignPatterns.proxy;
 
 /**
  * 票务服务接口

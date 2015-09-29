@@ -3,6 +3,8 @@ package com.study.DesignPatterns.proxy.staticproxy;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.study.DesignPatterns.proxy.Station;
+
 public class StationProxyTest {
 
 	private StationProxy station = null;

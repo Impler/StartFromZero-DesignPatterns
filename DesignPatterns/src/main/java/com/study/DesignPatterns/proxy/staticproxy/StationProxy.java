@@ -1,5 +1,8 @@
 package com.study.DesignPatterns.proxy.staticproxy;
 
+import com.study.DesignPatterns.proxy.Station;
+import com.study.DesignPatterns.proxy.TicketService;
+
 public class StationProxy implements TicketService {
 	private Station station;
 	public StationProxy(Station station){
