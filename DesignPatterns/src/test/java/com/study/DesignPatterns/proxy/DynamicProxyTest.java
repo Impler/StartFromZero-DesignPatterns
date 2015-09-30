@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.lang.reflect.Proxy;
 import org.junit.Test;
 
-import com.study.DesignPatterns.proxy.dynamicproxy.MyInvocationHandler;
+import com.study.DesignPatterns.proxy.dynamicproxy.jdk.MyInvocationHandler;
+import com.study.DesignPatterns.proxy.dynamicproxy.jdk.Station;
 
 public class DynamicProxyTest {
 

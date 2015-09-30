@@ -3,7 +3,7 @@ package com.study.DesignPatterns.proxy;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.study.DesignPatterns.proxy.Station;
+import com.study.DesignPatterns.proxy.dynamicproxy.jdk.Station;
 import com.study.DesignPatterns.proxy.staticproxy.StationProxy;
 
 public class StaticProxyTest {

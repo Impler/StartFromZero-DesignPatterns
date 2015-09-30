@@ -1,4 +1,6 @@
-package com.study.DesignPatterns.proxy;
+package com.study.DesignPatterns.proxy.dynamicproxy.jdk;
+
+import com.study.DesignPatterns.proxy.TicketService;
 
 /**
  * 车站实例

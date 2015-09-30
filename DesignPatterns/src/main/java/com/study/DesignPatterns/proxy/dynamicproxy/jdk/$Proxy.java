@@ -1,7 +1,8 @@
-package com.study.DesignPatterns.proxy.dynamicproxy;
+package com.study.DesignPatterns.proxy.dynamicproxy.jdk;
+
+import java.lang.reflect.*;
 
 import com.study.DesignPatterns.proxy.TicketService;
-import java.lang.reflect.*;
 
 /**
  * 动态代理生成的class文件

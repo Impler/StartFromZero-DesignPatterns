@@ -1,7 +1,7 @@
 package com.study.DesignPatterns.proxy.staticproxy;
 
-import com.study.DesignPatterns.proxy.Station;
 import com.study.DesignPatterns.proxy.TicketService;
+import com.study.DesignPatterns.proxy.dynamicproxy.jdk.Station;
 
 public class StationProxy implements TicketService {
 	private Station station;
