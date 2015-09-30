@@ -10,7 +10,7 @@
 ### 动态代理
 	- 特点：
 		在程序运行时动态生成代理类字节码，无需编写源代码
-	- JDK和CGLIB
+	- JDK和CGLIB(Code Generation Library)
 		JDK和CGLIB都为实现动态代理提供了解决方案，但其原理不尽相同。
 		- JDK只能为实现接口的类做代理，且只能代理接口方法。
 			创建代理对象，JDK将会做以下工作：
@@ -20,4 +20,11 @@
 				4. 将字节码转换为class对象
 				5. 创建InvocationHandler实例handler，实现invoke方法，用来处理代理类所有方法调用
 				6. 将handler作为代理类入参，创建代理类对象
+		- CGLIB基于继承机制，通过继承被代理类，重写方法实现代理。由于受限于继承机制，不能为被final修饰的类或方法代理
+			创建代理对象，CGLIB将会做以下工作：
+				1. 获取所有被代理类非final的public方法
+				2. 将这些方法转换成字节码
+				3. 将字节码转换成相应的代理的class对象
+				4. 创建MethodInterceptor实例，实现intercept方法，用来处理代理类的方法调用
+			
 	

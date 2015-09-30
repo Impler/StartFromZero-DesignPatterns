@@ -6,8 +6,12 @@ import java.io.IOException;
 import java.lang.reflect.Proxy;
 import org.junit.Test;
 
+import com.study.DesignPatterns.proxy.dynamicproxy.cglib.Car;
+import com.study.DesignPatterns.proxy.dynamicproxy.cglib.CarHandler;
 import com.study.DesignPatterns.proxy.dynamicproxy.jdk.MyInvocationHandler;
 import com.study.DesignPatterns.proxy.dynamicproxy.jdk.Station;
+
+import net.sf.cglib.proxy.Enhancer;
 
 public class DynamicProxyTest {
 
@@ -36,5 +40,17 @@ public class DynamicProxyTest {
 		FileOutputStream out = new FileOutputStream(file);
 		out.write(bytes);
 		out.close();
+	}
+	
+	
+	@Test
+	public void testCGLib(){
+		
+		Enhancer enhance = new Enhancer();
+		enhance.setSuperclass(Car.class);
+		enhance.setCallback(new CarHandler());
+		
+		Car proxy = (Car) enhance.create();
+		proxy.drive();
 	}
 }
