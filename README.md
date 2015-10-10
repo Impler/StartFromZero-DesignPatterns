@@ -54,8 +54,4 @@
 ---
 
 ##  参考文献
-	[图说设计模式](design-patterns.readthedocs.org/zh_CN/latest/index.html "图说设计模式") 
-	[http://www.baidu.com](http://www.baidu.com "百度")
-
-	[Donate Charisma](http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub)
-	<http://luangng.github.io/>
+- [图说设计模式](design-patterns.readthedocs.org/zh_CN/latest/index.html "图说设计模式") 
