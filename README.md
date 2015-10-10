@@ -1,4 +1,4 @@
-# StartFromZero-DesignPatterns
+﻿# StartFromZero-DesignPatterns
 ## 代理模式（Proxy）
 	代理模式是通过代理类完成预处理消息、过滤消息、把消息转发给被代理类以及事后处理消息等工作。
 	根据代理创建的时期，可以分为静态代理和动态代理。
@@ -54,4 +54,5 @@
 ---
 
 ##  参考文献
-	[图说设计模式](design-patterns.readthedocs.org/zh_CN/latest/index.html "图说设计模式")
+	[图说设计模式](design-patterns.readthedocs.org/zh_CN/latest/index.html "图说设计模式") 	[Donate Charisma](http://flattr.com/thing/1507720/usmanhalalitcharisma-on-GitHub)
+	<http://luangng.github.io/>
