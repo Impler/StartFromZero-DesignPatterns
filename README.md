@@ -54,4 +54,4 @@
 ---
 
 ##  参考文献
-	[图说设计模式](http://design-patterns.readthedocs.org/zh_CN/latest/index.html "图说设计模式")
+	[图说设计模式](design-patterns.readthedocs.org/zh_CN/latest/index.html "图说设计模式")
