@@ -10,7 +10,7 @@ public class TestFactory {
 	@Test
 	public void testSimpleFactory(){
 		Car car = CarFactory.getCar(1);
-		System.out.println(car);
+		car.drive();
 	}
 	
 	@Test
