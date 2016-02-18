@@ -124,3 +124,4 @@
 
 ##  参考文献
 - [图说设计模式 http://design-patterns.readthedocs.org/zh_CN/latest/index.html](http://design-patterns.readthedocs.org/zh_CN/latest/index.html "图说设计模式") 
+- [非關語言: 設計模式http://openhome.cc/Gossip/DesignPattern/index.html](http://openhome.cc/Gossip/DesignPattern/index.html "非關語言: 設計模式")
